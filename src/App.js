@@ -1,6 +1,6 @@
 import { BrowserRouter, Link } from "react-router-dom";
 
-import { Router } from "./router.Router";
+import { Router } from "./router/Router";
 import "./styles.css";
 
 export default function App() {
