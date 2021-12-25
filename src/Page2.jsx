@@ -4,7 +4,8 @@ export const Page2 = () => {
   return (
     <div>
       <h1>Page2です</h1>
-      <Link to="/page2/100">URL Parameter</Link>
+      <Link to="/page2/999">URL Parameter</Link>
+      <Link to="/page2/999?name=hogehoge">Query Parameter</Link>
     </div>
   );
 };
